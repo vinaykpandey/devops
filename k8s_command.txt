@@ -1,0 +1,28 @@
+kubectl get cs    // cs: cluster state
+kubectl get nodes
+kubectl get pods
+kubectl get services
+kubectl get pods -w // w : watch
+kubectl get deployments 
+kubectl get pods -o wide
+kubectl get pods -o wide -w
+kubectl delete pod podName
+kubectl get all
+kubectl config view
+kubectl config --minify=true
+kubectl config get-contexts
+kubectl cluster-info
+kubectl config get-cluster
+kubectl get nodes -o wide
+kubectl get pods -w
+kubectl describe node nodeName
+kubectl get namespaces
+
+
+
+kubectl run hello --image=ImageName --port=8001
+kubectl expose deployment hello --type=LoadBalancer --port=8001
+kubectl scale deployments hello --replicas=4
+
+
+

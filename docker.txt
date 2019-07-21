@@ -1,0 +1,6 @@
+docker run --name ImageName -p 80:80 -d nginx: alpine
+
+docker ps
+docker ps -a
+docker stop containerName
+docker run containerName

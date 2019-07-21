@@ -1,0 +1,51 @@
+We specify a "desired state" and cluster adjust its "running state" to match that
+
+
+
+	Dev Guy .........Network  ********** Master (High Availabilty zone)
+							  .......... Worker1
+							  ---------- Worker2
+
+	Master:
+		- etcd
+		- api-server
+		- controller-mmanager
+		- scheduler
+
+	Worker:
+		- docker
+		- kubectl
+		- kube-proxy
+
+
+Pod
+	- Work unit in k8s is pods
+	- collection of container, live together, die together
+	- Its like physical VM
+
+POD is work unit in k8s, container is work unit in docker
+
+pause => container in all pods
+	- container namespace
+	- create a container & return ip
+
+
+K8s 
+
+	Ingress
+	Service
+	Deployments
+	----------------------
+	pods
+	containers
+	nodes
+
+
+deployments ->  replica set  -> pods
+
+
+
+
+Commands
+	kubectl get pods
+
