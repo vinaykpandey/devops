@@ -1,0 +1,9 @@
+Check remote url
+git remote -v
+
+Add remote url
+git remote add origin git@git.assembla.com:portfolio/space.space_name.git
+
+Change remote url
+git remote set-url origin git@gitserver.com:user/repo_name.git
+
