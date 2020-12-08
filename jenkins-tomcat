@@ -1,0 +1,30 @@
+https://tecadmin.net/install-tomcat-9-on-ubuntu/
+
+install apache tomcat
+
+mv file to /opt/server
+
+made changes in /opt/server/apache-tomcat-8.5.41/conf/tomcat-users.xml
+
+export PATH=/opt/server/apache-tomcat-8.5.41/bin/:$PATH  (write this in .bashrc
+
+catalina.sh start
+catalina.sh stop
+
+localhost:8080
+
+
+downalod jenkins war file
+
+https://jenkins.io/download
+
+copy war file(jenkins)  to tomcat server: Tomcat-Path/webapps/
+
+
+
+
+code => gitHub => jenkins
+
+jenkins:
+
+# of executors: It's depend on RAM, Processor

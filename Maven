@@ -1,0 +1,29 @@
+maven build: mvn compile
+
+----package-------- 
+
+maven clean: mvn clean
+
+maven install: mvn install  
+OR 
+mvn clean install -DskipTests
+
+maven test: mv test
+
+
+
+Run Spring Boot App
+-------------------
+
+
+
+java -jar Minecraft.jar
+
+mvn spring-boot:run
+
+
+
+
+Hibernate vs JPA
+
+=================

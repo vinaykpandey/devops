@@ -1,0 +1,13 @@
+- hosts: test-servers
+  remote_user: vinay
+  become: true
+  vars:
+    dict:
+      msg_var: Hello, Welcome
+  tasks:
+  - name: Debug Message
+    debug: 
+      msg: {{dict}}
+   - name: Debug Message1
+    debug: 
+      msg: {{dict.msg_var}}

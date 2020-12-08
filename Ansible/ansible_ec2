@@ -1,0 +1,34 @@
+https://linuxhint.com/ansible-tutorial-beginners/
+
+copy public key of host machine(where ansible is install) to remote machine
+passowrdless comminication between 2 machine
+
+host (~/.ssh/id_rsa.pub)   
+
+remote ( ~/.ssh/authorized_keys )
+
+
+ansible anode(name of the node) -m ping
+
+ansible.cfg
+
+inventory host
+
+
+hosts in working dir
+[myremote]
+IP of remote machine
+
+ansible myremote -i hosts -a uptime
+
+
+copy ssh id
+
+ssh-copy-id mahadev@192.168.1.12
+
+
+ansible anode -a "ls -l /home/username -u username"
+
+
+ansible all --list-hosts -i hosts
+

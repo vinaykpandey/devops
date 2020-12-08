@@ -1,0 +1,10 @@
+Idempotency:
+
+This will perform task only once
+
+Example:
+	install apache sites
+	move html files
+	create sites
+	place conten to each site
+

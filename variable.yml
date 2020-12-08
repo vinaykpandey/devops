@@ -1,0 +1,5 @@
+- hosts: test-servers
+  remote_user: vinay
+  become: true
+  vars:
+    my_name: Vinay Pandey

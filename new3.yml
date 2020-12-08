@@ -1,0 +1,10 @@
+- hosts: anode
+  remote_user: vinay
+  become: true
+  vars_file:
+    mylist:
+      include: variable.yml
+    tasks:
+    - name: Debug Message
+    debug: 
+      msg: {{my_name}}

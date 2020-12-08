@@ -1,0 +1,47 @@
+Ansible
+
+configurtion Management: Manage the nodes ( It will install the package on nodes/ server / instance )
+
+Ansible is written in Python
+
+----------------------
+ansible host file
+......................
+all the IP/domain of remote server (nodes)
+
+group
+[web]
+----
+----
+----
+[app]
+----
+----
+----
+
+ location f host file
+
+/etc/ansible (Priority - 3 )
+/home/username/.ssh  (Priority - 2 )
+the path where you execute the ansible,  hosts  (Priority - 1 )
+
+
+------------------------
+installation
+------------------
+https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-18-04
+
+
+2: ssh-keygen -t rsa  ( generate public key, path ==>  ~/.ssh/id_rsa.pub)
+
+
+ cat ~/.ssh/id_rsa.pub 
+
+ssh_copy_id root@hostIP
+
+
+
+
+
+
+	

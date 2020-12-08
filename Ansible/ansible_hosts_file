@@ -1,0 +1,14 @@
+[jpa-apserver]
+IP1 ansible_user=serverUserName ansible_become_pass=jpa123 http_port=80
+IP2 ansible_user=serverUserName ansible_become=true ansible_port=222 
+--private-key=/home/serverUser/.ssh/aws-app.pem
+
+[jpa-dbserver]
+IP1
+IP2
+
+[jps:chinldren]
+jpa-apserver
+jpa-dbserver
+
+[all:vars]
