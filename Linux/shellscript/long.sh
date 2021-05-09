@@ -4,6 +4,6 @@ do
 	# Echo current date to stdout
 	echo `date`
 	# Echo 'error!' to stderr
-	echo 'error!' > 
+	echo 'error!'
 	sleep 1
 done
