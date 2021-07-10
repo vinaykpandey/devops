@@ -1,0 +1,22 @@
+man grep
+---------------
+
+
+grep -rl "search" *
+
+tail -2000f  | grep -i "ERROR"
+
+tail -2000f  | grep -i "EXCEPTION"
+
+
+tail -200f | grep "vinay" -A 20 -B 10
+
+
+zgrep -cl "search" * 
+
+zcat 1.log.tar.gz | grep --text "search"
+
+
+grep -c "search" 1.log 
+
+man grep
