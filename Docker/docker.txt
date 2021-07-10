@@ -4,3 +4,24 @@ docker ps
 docker ps -a
 docker stop containerName
 docker run containerName
+
+
+
+
+----------------------------
+Docker RabbitMQ using Network
+
+docker network create rabbitmq-nw
+
+docker run -d -p 5672:5672 --hostname rabbitMQ --name rabbitMQ --network rabbitmq-nw --rm rabbitmq
+
+
+
+
+
+$ docker network create my-net.
+$ docker network rm my-net.
+$ docker create --name my-nginx \ --network my-net \ --publish 8080:80 \ nginx:latest.
+$ docker network connect my-net my-nginx.
+$ docker network disconnect my-net my-nginx.
+

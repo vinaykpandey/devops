@@ -1,0 +1,20 @@
+sudo /etc/init.d/nginx start
+
+sudo /etc/init.d/nginx restart
+
+sudo /etc/init.d/nginx status
+
+
+sudo /etc/init.d/nginx stop
+
+
+
+sudo nginx -t
+
+
+sudo nginx -s reload
+
+
+
+
+

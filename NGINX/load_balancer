@@ -1,0 +1,7 @@
+Path
+----
+/etc/nginx/site_enabled
+
+By default on Debian systems, Nginx server blocks configuration files are stored in /etc/nginx/sites-available directory, which are enabled through symbolic links to the /etc/nginx/sites-enabled/ directory. You can name the configuration file as you like but usually it is best to use the domain name.
+
+
