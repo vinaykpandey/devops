@@ -1,12 +1,3 @@
-how to use sudo command to install .tar.gz
-
-tar -xzf archive-name.tar.gz
-cd archive-name
-./configure
-make
-sudo make install
-
-
 #!/bin/bash
 
 # Database credentials
